@@ -44,7 +44,7 @@
 
     <target.gen.source.path>${project.basedir}/target/generated-sources</target.gen.source.path>
     <proto.cas.path>${project.basedir}/src/main/protobuf/</proto.cas.path>
-    <junit.version>4.12</junit.version>
+    <junit.version>4.13.1</junit.version>
     <slf4j.version>1.7.26</slf4j.version>
     <shaded.guava.version>28.2-jre</shaded.guava.version>
     <guava.version>19.0</guava.version>
@@ -62,19 +62,19 @@
     <avatica.version>1.15.0</avatica.version>
     <janino.version>3.0.11</janino.version>
     <sqlline.version>1.9.0</sqlline.version>
-    <jackson.version>2.10.3</jackson.version>
+    <jackson.version>2.12.7.1</jackson.version>
     <zookeeper.version>3.5.7</zookeeper.version>
     <mapr.release.version>6.1.0-mapr</mapr.release.version>
     <ojai.version>3.0-mapr-1808</ojai.version>
     <kerby.version>1.0.0</kerby.version>
     <findbugs.version>3.0.0</findbugs.version>
     <netty.tcnative.classifier />
-    <commons.io.version>2.4</commons.io.version>
+    <commons.io.version>2.7</commons.io.version>
     <hamcrest.core.version>1.3</hamcrest.core.version>
     <curator.version>4.3.0</curator.version>
     <wiremock.standalone.version>2.23.2</wiremock.standalone.version>
     <jmockit.version>1.47</jmockit.version>
-    <logback.version>1.2.3</logback.version>
+    <logback.version>1.2.13</logback.version>
     <mockito.version>2.28.2</mockito.version>
     <!--
       Currently Hive storage plugin only supports Apache Hive 3.1.2 or vendor specific variants of the
@@ -82,16 +82,16 @@
       for example parquet-hadoop-bundle and derby dependencies.
     -->
     <hive.version>3.1.2</hive.version>
-    <hadoop.version>3.2.1</hadoop.version>
+    <hadoop.version>2.7.0-mapr-1808</hadoop.version>
     <hbase.version>2.2.2</hbase.version>
     <fmpp.version>1.0</fmpp.version>
     <freemarker.version>2.3.28</freemarker.version>
     <javassist.version>3.27.0-GA</javassist.version>
     <msgpack.version>0.6.6</msgpack.version>
     <reflections.version>0.9.10</reflections.version>
-    <avro.version>1.9.1</avro.version>
+    <avro.version>1.11.3</avro.version>
     <metrics.version>4.0.2</metrics.version>
-    <jetty.version>9.3.28.v20191105</jetty.version>
+    <jetty.version>9.4.51.v20230217</jetty.version>
     <jersey.version>2.25.1</jersey.version>
     <asm.version>7.3.1</asm.version>
     <excludedGroups />
@@ -102,29 +102,29 @@
     <docker.repository>apache/drill</docker.repository>
     <antlr.version>4.8-1</antlr.version>
     <maven.version>3.6.3</maven.version>
-    <commons.net.version>3.6</commons.net.version>
+    <commons.net.version>3.9.0</commons.net.version>
     <commons.validator.version>1.6</commons.validator.version>
-    <commons.text.version>1.6</commons.text.version>
-    <protobuf.version>3.11.1</protobuf.version>
+    <commons.text.version>1.10.0</commons.text.version>
+    <protobuf.version>3.16.3</protobuf.version>
     <protostuff.version>1.7.1</protostuff.version>
     <codemodel.version>2.6</codemodel.version>
     <joda.version>2.10.5</joda.version>
     <javax.el.version>3.0.0</javax.el.version>
     <surefire.version>3.0.0-M4</surefire.version>
-    <commons.compress.version>1.20</commons.compress.version>
+    <commons.compress.version>1.26.0</commons.compress.version>
     <hikari.version>3.4.2</hikari.version>
-    <netty.version>4.0.48.Final</netty.version>
-    <httpclient.version>4.5.12</httpclient.version>
-    <libthrift.version>0.13.0</libthrift.version>
+    <netty.version>4.1.94.Final</netty.version>
+    <httpclient.version>4.5.13</httpclient.version>
+    <libthrift.version>0.14.0</libthrift.version>
     <derby.version>10.14.2.0</derby.version>
     <commons.cli.version>1.4</commons.cli.version>
-    <snakeyaml.version>1.26</snakeyaml.version>
+    <snakeyaml.version>2.0</snakeyaml.version>
     <commons.lang3.version>3.10</commons.lang3.version>
     <typesafe.config.version>1.0.0</typesafe.config.version>
     <commons.codec.version>1.14</commons.codec.version>
-    <metadata.extractor.version>2.13.0</metadata.extractor.version>
-    <xalan.version>2.7.2</xalan.version>
-    <xerces.version>2.12.0</xerces.version>
+    <metadata.extractor.version>2.18.0</metadata.extractor.version>
+    <xalan.version>2.7.3</xalan.version>
+    <xerces.version>2.12.2</xerces.version>
     <commons.configuration.version>1.10</commons.configuration.version>
     <commons.beanutils.version>1.9.4</commons.beanutils.version>
   </properties>
@@ -452,7 +452,7 @@
           <dependency>
             <groupId>com.puppycrawl.tools</groupId>
             <artifactId>checkstyle</artifactId>
-            <version>8.16</version>
+            <version>8.29</version>
           </dependency>
         </dependencies>
         <configuration>
@@ -1107,7 +1107,7 @@
     <dependency>
       <groupId>org.xerial.snappy</groupId>
       <artifactId>snappy-java</artifactId>
-      <version>1.1.2.6</version>
+      <version>1.1.10.4</version>
     </dependency>
     <dependency>
       <groupId>org.apache.kerby</groupId>
@@ -3517,7 +3517,7 @@
           <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
-            <version>2.3.0-cdh5.0.3</version>
+            <version>2.7.0-mapr-1808</version>
             <exclusions>
               <exclusion>
                 <artifactId>commons-logging</artifactId>
@@ -3544,7 +3544,7 @@
           <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
-            <version>2.3.0-cdh5.0.3</version>
+            <version>2.7.0-mapr-1808</version>
             <exclusions>
               <exclusion>
                 <groupId>javax.servlet</groupId>
@@ -3575,7 +3575,7 @@
           <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-yarn-client</artifactId>
-            <version>2.3.0-cdh5.0.3</version>
+            <version>2.7.0-mapr-1808</version>
             <scope>compile</scope>
             <exclusions>
               <exclusion>
@@ -3647,7 +3647,7 @@
           <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
-            <version>2.4.0.2.1.3.0-563</version>
+            <version>2.7.0-mapr-1808</version>
             <exclusions>
               <exclusion>
                 <artifactId>commons-logging</artifactId>
@@ -3674,7 +3674,7 @@
           <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-client</artifactId>
-            <version>2.4.0.2.1.3.0-563</version>
+            <version>2.7.0-mapr-1808</version>
             <exclusions>
               <exclusion>
                 <groupId>javax.servlet</groupId>
@@ -3705,7 +3705,7 @@
           <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-yarn-client</artifactId>
-            <version>2.4.0.2.1.3.0-563</version>
+            <version>2.7.0-mapr-1808</version>
             <scope>compile</scope>
             <exclusions>
               <exclusion>
