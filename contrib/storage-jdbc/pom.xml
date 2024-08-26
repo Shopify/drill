@@ -31,9 +31,9 @@
   <name>contrib/jdbc-storage-plugin</name>
 
   <properties>
-    <mysql.connector.version>8.0.19</mysql.connector.version>
+    <mysql.connector.version>8.0.28</mysql.connector.version>
     <wix-embedded-mysql.version>4.6.1</wix-embedded-mysql.version>
-    <h2.version>1.4.200</h2.version>
+    <h2.version>2.2.220</h2.version>
   </properties>
 
   <dependencies>
